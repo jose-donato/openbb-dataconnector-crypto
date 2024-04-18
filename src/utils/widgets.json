@@ -1,11 +1,11 @@
 {
-  "defillama_protocols": {
-    "name": "DefiLlama Protocols",
-    "description": "Get current TVL of all protocols using Defi LLama",
+  "_protocols": {
+    "name": " Protocols",
+    "description": "Get current TVL of a specific protocol using Defi LLama",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_protocols",
+    "widgetId": "_protocols",
     "endpoint": "/defillama/protocols",
     "params": {
       "optional": {}
@@ -21,14 +21,14 @@
       }
     }
   },
-  "defillama_protocol": {
-    "name": "DefiLlama Protocol",
-    "description": "Description for DefiLlama Protocol",
+  "_protocol": {
+    "name": " Protocol",
+    "description": "Get historicalChainTvl of all",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_protocol",
-    "endpoint": "/defillama/protocol/:protocol",
+    "widgetId": "_protocol",
+    "endpoint": "/defillama/protocol",
     "params": {
       "optional": {
         "protocol": "string"
@@ -40,19 +40,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_v2_historicalChainTvl": {
-    "name": "DefiLlama V2 HistoricalChainTvl",
-    "description": "Description for DefiLlama V2 HistoricalChainTvl",
+  "_v2_historicalChainTvl": {
+    "name": " V2 HistoricalChainTvl",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_v2_historicalChainTvl",
-    "endpoint": "/defillama/v2/historicalChainTvl/:chain",
+    "widgetId": "_v2_historicalChainTvl",
+    "endpoint": "/defillama/v2/historicalChainTvl",
     "params": {
       "optional": {
         "chain": "string"
@@ -64,19 +64,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_tvl": {
-    "name": "DefiLlama Tvl",
-    "description": "Description for DefiLlama Tvl",
+  "_tvl": {
+    "name": " Tvl",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_tvl",
-    "endpoint": "/defillama/tvl/:protocol",
+    "widgetId": "_tvl",
+    "endpoint": "/defillama/tvl",
     "params": {
       "optional": {
         "protocol": "string"
@@ -88,18 +88,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_v2_chains": {
-    "name": "DefiLlama V2 Chains",
-    "description": "Description for DefiLlama V2 Chains",
+  "_v2_chains": {
+    "name": " V2 Chains",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_v2_chains",
+    "widgetId": "_v2_chains",
     "endpoint": "/defillama/v2/chains",
     "params": {
       "optional": {}
@@ -110,19 +110,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_prices_current": {
-    "name": "DefiLlama Prices Current",
-    "description": "Description for DefiLlama Prices Current",
+  "_prices_current": {
+    "name": " Prices Current",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_prices_current",
-    "endpoint": "/defillama/prices/current/:coins",
+    "widgetId": "_prices_current",
+    "endpoint": "/defillama/prices/current",
     "params": {
       "optional": {
         "coins": "string"
@@ -134,19 +134,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_prices_historical": {
-    "name": "DefiLlama Prices Historical",
-    "description": "Description for DefiLlama Prices Historical",
+  "_prices_historical_": {
+    "name": " Prices Historical ",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_prices_historical",
-    "endpoint": "/defillama/prices/historical/:timestamp/:coins",
+    "widgetId": "_prices_historical_",
+    "endpoint": "/defillama/prices/historical",
     "params": {
       "optional": {
         "timestamp": "string",
@@ -159,18 +159,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_batchHistorical": {
-    "name": "DefiLlama BatchHistorical",
-    "description": "Description for DefiLlama BatchHistorical",
+  "_batchHistorical": {
+    "name": " BatchHistorical",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_batchHistorical",
+    "widgetId": "_batchHistorical",
     "endpoint": "/defillama/batchHistorical",
     "params": {
       "optional": {}
@@ -181,19 +181,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_chart": {
-    "name": "DefiLlama Chart",
-    "description": "Description for DefiLlama Chart",
+  "_chart": {
+    "name": " Chart",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_chart",
-    "endpoint": "/defillama/chart/:pool",
+    "widgetId": "_chart",
+    "endpoint": "/defillama/chart",
     "params": {
       "optional": {
         "pool": "string"
@@ -205,19 +205,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_percentage": {
-    "name": "DefiLlama Percentage",
-    "description": "Description for DefiLlama Percentage",
+  "_percentage": {
+    "name": " Percentage",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_percentage",
-    "endpoint": "/defillama/percentage/:coins",
+    "widgetId": "_percentage",
+    "endpoint": "/defillama/percentage",
     "params": {
       "optional": {
         "coins": "string"
@@ -229,19 +229,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_prices_first": {
-    "name": "DefiLlama Prices First",
-    "description": "Description for DefiLlama Prices First",
+  "_prices_first": {
+    "name": " Prices First",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_prices_first",
-    "endpoint": "/defillama/prices/first/:coins",
+    "widgetId": "_prices_first",
+    "endpoint": "/defillama/prices/first",
     "params": {
       "optional": {
         "coins": "string"
@@ -253,19 +253,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_block": {
-    "name": "DefiLlama Block",
-    "description": "Description for DefiLlama Block",
+  "_block_": {
+    "name": " Block ",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_block",
-    "endpoint": "/defillama/block/:chain/:timestamp",
+    "widgetId": "_block_",
+    "endpoint": "/defillama/block",
     "params": {
       "optional": {
         "chain": "string",
@@ -278,18 +278,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_stablecoins": {
-    "name": "DefiLlama Stablecoins",
-    "description": "Description for DefiLlama Stablecoins",
+  "_stablecoins": {
+    "name": " Stablecoins",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_stablecoins",
+    "widgetId": "_stablecoins",
     "endpoint": "/defillama/stablecoins",
     "params": {
       "optional": {}
@@ -300,18 +300,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_stablecoincharts_all": {
-    "name": "DefiLlama Stablecoincharts All",
-    "description": "Description for DefiLlama Stablecoincharts All",
+  "_stablecoincharts_all": {
+    "name": " Stablecoincharts All",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_stablecoincharts_all",
+    "widgetId": "_stablecoincharts_all",
     "endpoint": "/defillama/stablecoincharts/all",
     "params": {
       "optional": {}
@@ -322,19 +322,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_stablecoincharts": {
-    "name": "DefiLlama Stablecoincharts",
-    "description": "Description for DefiLlama Stablecoincharts",
+  "_stablecoincharts": {
+    "name": " Stablecoincharts",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_stablecoincharts",
-    "endpoint": "/defillama/stablecoincharts/:chain",
+    "widgetId": "_stablecoincharts",
+    "endpoint": "/defillama/stablecoincharts",
     "params": {
       "optional": {
         "chain": "string"
@@ -346,19 +346,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_stablecoin": {
-    "name": "DefiLlama Stablecoin",
-    "description": "Description for DefiLlama Stablecoin",
+  "_stablecoin": {
+    "name": " Stablecoin",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_stablecoin",
-    "endpoint": "/defillama/stablecoin/:asset",
+    "widgetId": "_stablecoin",
+    "endpoint": "/defillama/stablecoin",
     "params": {
       "optional": {
         "asset": "string"
@@ -370,18 +370,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_stablecoinchains": {
-    "name": "DefiLlama Stablecoinchains",
-    "description": "Description for DefiLlama Stablecoinchains",
+  "_stablecoinchains": {
+    "name": " Stablecoinchains",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_stablecoinchains",
+    "widgetId": "_stablecoinchains",
     "endpoint": "/defillama/stablecoinchains",
     "params": {
       "optional": {}
@@ -392,18 +392,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_stablecoinprices": {
-    "name": "DefiLlama Stablecoinprices",
-    "description": "Description for DefiLlama Stablecoinprices",
+  "_stablecoinprices": {
+    "name": " Stablecoinprices",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_stablecoinprices",
+    "widgetId": "_stablecoinprices",
     "endpoint": "/defillama/stablecoinprices",
     "params": {
       "optional": {}
@@ -414,18 +414,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_pools": {
-    "name": "DefiLlama Pools",
-    "description": "Description for DefiLlama Pools",
+  "_pools": {
+    "name": " Pools",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_pools",
+    "widgetId": "_pools",
     "endpoint": "/defillama/pools",
     "params": {
       "optional": {}
@@ -436,18 +436,18 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_fetch_signature": {
-    "name": "DefiLlama Fetch Signature",
-    "description": "Description for DefiLlama Fetch Signature",
+  "_fetch_signature": {
+    "name": " Fetch Signature",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_fetch_signature",
+    "widgetId": "_fetch_signature",
     "endpoint": "/defillama/fetch/signature",
     "params": {
       "optional": {}
@@ -458,19 +458,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_fetch_contract": {
-    "name": "DefiLlama Fetch Contract",
-    "description": "Description for DefiLlama Fetch Contract",
+  "_fetch_contract_": {
+    "name": " Fetch Contract ",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_fetch_contract",
-    "endpoint": "/defillama/fetch/contract/:chain/:address",
+    "widgetId": "_fetch_contract_",
+    "endpoint": "/defillama/fetch/contract",
     "params": {
       "optional": {
         "chain": "string",
@@ -483,19 +483,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_overview_dexs": {
-    "name": "DefiLlama Overview Dexs",
-    "description": "Description for DefiLlama Overview Dexs",
+  "_overview_dexs": {
+    "name": " Overview Dexs",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_overview_dexs",
-    "endpoint": "/defillama/overview/dexs/:chain",
+    "widgetId": "_overview_dexs",
+    "endpoint": "/defillama/overview/dexs",
     "params": {
       "optional": {
         "chain": "string"
@@ -507,19 +507,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_summary_dexs": {
-    "name": "DefiLlama Summary Dexs",
-    "description": "Description for DefiLlama Summary Dexs",
+  "_summary_dexs": {
+    "name": " Summary Dexs",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_summary_dexs",
-    "endpoint": "/defillama/summary/dexs/:protocol",
+    "widgetId": "_summary_dexs",
+    "endpoint": "/defillama/summary/dexs",
     "params": {
       "optional": {
         "protocol": "string"
@@ -531,19 +531,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_overview_options": {
-    "name": "DefiLlama Overview Options",
-    "description": "Description for DefiLlama Overview Options",
+  "_overview_options": {
+    "name": " Overview Options",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_overview_options",
-    "endpoint": "/defillama/overview/options/:chain",
+    "widgetId": "_overview_options",
+    "endpoint": "/defillama/overview/options",
     "params": {
       "optional": {
         "chain": "string"
@@ -555,19 +555,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_summary_options": {
-    "name": "DefiLlama Summary Options",
-    "description": "Description for DefiLlama Summary Options",
+  "_summary_options": {
+    "name": " Summary Options",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_summary_options",
-    "endpoint": "/defillama/summary/options/:protocol",
+    "widgetId": "_summary_options",
+    "endpoint": "/defillama/summary/options",
     "params": {
       "optional": {
         "protocol": "string"
@@ -579,19 +579,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_overview_fees": {
-    "name": "DefiLlama Overview Fees",
-    "description": "Description for DefiLlama Overview Fees",
+  "_overview_fees": {
+    "name": " Overview Fees",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_overview_fees",
-    "endpoint": "/defillama/overview/fees/:chain",
+    "widgetId": "_overview_fees",
+    "endpoint": "/defillama/overview/fees",
     "params": {
       "optional": {
         "chain": "string"
@@ -603,19 +603,19 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
         "showAll": true
       }
     }
   },
-  "defillama_summary_fees": {
-    "name": "DefiLlama Summary Fees",
-    "description": "Description for DefiLlama Summary Fees",
+  "_summary_fees": {
+    "name": " Summary Fees",
+    "description": "",
     "category": "crypto",
     "searchCategory": "crypto",
     "widgetType": "individual",
-    "widgetId": "defillama_summary_fees",
-    "endpoint": "/defillama/summary/fees/:protocol",
+    "widgetId": "_summary_fees",
+    "endpoint": "/defillama/summary/fees",
     "params": {
       "optional": {
         "protocol": "string"
@@ -627,7 +627,126 @@
     },
     "data": {
       "table": {
-        "index": "change this to your actual index",
+        "index": "name",
+        "showAll": true
+      }
+    }
+  },
+  "_bridges": {
+    "name": " Bridges",
+    "description": "",
+    "category": "crypto",
+    "searchCategory": "crypto",
+    "widgetType": "individual",
+    "widgetId": "_bridges",
+    "endpoint": "/defillama/bridges",
+    "params": {
+      "optional": {}
+    },
+    "gridData": {
+      "w": 40,
+      "h": 10
+    },
+    "data": {
+      "table": {
+        "index": "name",
+        "showAll": true
+      }
+    }
+  },
+  "_bridge": {
+    "name": " Bridge",
+    "description": "",
+    "category": "crypto",
+    "searchCategory": "crypto",
+    "widgetType": "individual",
+    "widgetId": "_bridge",
+    "endpoint": "/defillama/bridge",
+    "params": {
+      "optional": {
+        "id": "string"
+      }
+    },
+    "gridData": {
+      "w": 40,
+      "h": 10
+    },
+    "data": {
+      "table": {
+        "index": "name",
+        "showAll": true
+      }
+    }
+  },
+  "_bridgevolume": {
+    "name": " Bridgevolume",
+    "description": "",
+    "category": "crypto",
+    "searchCategory": "crypto",
+    "widgetType": "individual",
+    "widgetId": "_bridgevolume",
+    "endpoint": "/defillama/bridgevolume",
+    "params": {
+      "optional": {
+        "chain": "string"
+      }
+    },
+    "gridData": {
+      "w": 40,
+      "h": 10
+    },
+    "data": {
+      "table": {
+        "index": "name",
+        "showAll": true
+      }
+    }
+  },
+  "_bridgedaystats_": {
+    "name": " Bridgedaystats ",
+    "description": "",
+    "category": "crypto",
+    "searchCategory": "crypto",
+    "widgetType": "individual",
+    "widgetId": "_bridgedaystats_",
+    "endpoint": "/defillama/bridgedaystats",
+    "params": {
+      "optional": {
+        "timestamp": "string",
+        "chain": "string"
+      }
+    },
+    "gridData": {
+      "w": 40,
+      "h": 10
+    },
+    "data": {
+      "table": {
+        "index": "name",
+        "showAll": true
+      }
+    }
+  },
+  "_transactions": {
+    "name": " Transactions",
+    "description": "",
+    "category": "crypto",
+    "searchCategory": "crypto",
+    "widgetType": "individual",
+    "widgetId": "_transactions",
+    "endpoint": "/defillama/transactions",
+    "params": {
+      "optional": {
+        "id": "string"
+      }
+    },
+    "gridData": {
+      "w": 40,
+      "h": 10
+    },
+    "data": {
+      "table": {
+        "index": "name",
         "showAll": true
       }
     }
