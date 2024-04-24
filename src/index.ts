@@ -11,7 +11,7 @@ app.use("*", cors());
 app.get(
 	"*",
 	cache({
-		cacheName: "my-app",
+		cacheName: "my-app2",
 		cacheControl: "max-age=3600", // 1 hour
 	}),
 );
